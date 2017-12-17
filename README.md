@@ -87,10 +87,11 @@ docker-compose up
 
 ## Documentation
 
-If you want to know more about Swift please refer to official documentations in [reference](#reference).
+If you want to know more about Docker or Swift please refer to official documentations in [reference](#reference).
 
 ## Reference
 
+*   [Docker][docker]
 *   [Swift][swift]
 
 ## Contributing
@@ -107,6 +108,7 @@ This repository is under this [LICENSE][license].
 
 The complete changelog could be found in [CHANGELOG][changelog].
 
+[docker]: https://docker.com
 [swift]: https://swift.org
 [code_of_conduct]: CODE_OF_CONDUCT.md
 [license]: LICENSE.md
