@@ -1,6 +1,9 @@
 FROM ubuntu:xenial
 
-MAINTAINER Valentin Bercot <valent1.bercot@gmail.com>
+LABEL name="docker-swift" \
+    description="docker-swift help you to build applications running with swift on ubuntu systems." \
+    version="3.0.2" \
+    maintainer="Valentin Bercot <valent1.bercot@gmail.com>"
 
 # Set Swift platform and version
 ENV SWIFT_PLATFORM  ubuntu16.04
