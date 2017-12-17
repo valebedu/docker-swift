@@ -6,8 +6,8 @@ LABEL name="docker-swift" \
     maintainer="Valentin Bercot <valent1.bercot@gmail.com>"
 
 # Set Swift platform and version
-ENV SWIFT_PLATFORM  ubuntu16.04
-ENV SWIFT_VERSION   3.0.2-RELEASE
+ARG SWIFT_PLATFORM=ubuntu16.04
+ARG SWIFT_VERSION=3.0.2-RELEASE
 
 # Install dependencies
 RUN apt-get update && \
@@ -39,3 +39,6 @@ RUN SWIFT_URL=https://swift.org/builds/$(echo "swift-$SWIFT_VERSION" | tr "[:upp
 
 # Add the Swift toolchain to path
 ENV PATH /usr/bin:"$PATH"
+
+# Launch Swift
+CMD ["swift --version"]
