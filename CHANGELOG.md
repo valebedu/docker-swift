@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning][semantic_versioning].
 
 ## Unreleased
 
+## 3.1.1 - 2018-02-10
+
+### Changed
+
+*   Dockerfile Swift version to 3.1.1
+
 ## 3.0.2 - 2017-12-17
 
 ### Added

@@ -2,12 +2,12 @@ FROM ubuntu:xenial
 
 LABEL name="docker-swift" \
     description="docker-swift help you to build applications running with swift on ubuntu systems." \
-    version="3.0.2" \
+    version="3.1.1" \
     maintainer="Valentin Bercot <valent1.bercot@gmail.com>"
 
 # Set Swift platform and version
 ARG SWIFT_PLATFORM=ubuntu16.04
-ARG SWIFT_VERSION=3.0.2-RELEASE
+ARG SWIFT_VERSION=3.1.1-RELEASE
 
 # Install dependencies
 RUN apt-get update && \
